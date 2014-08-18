@@ -3,6 +3,7 @@
   border-top-color: #34495e !important;
 }
 .container {
+    padding-top: 25px;
   width: 970px !important;
 }
 .demo-headline {
