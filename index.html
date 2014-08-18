@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Robinson Registry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <table id="Registry" class="table table-striped sortable">
+            <thead>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone #</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable>Eric Robinson</td>
+                    <td>202-1265 Richmond St, London ON</td>
+                    <td>226.374.5055</td>
+                    <td>eric.z.robinson@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Scott Robinson</td>
+                    <td>32 Kelly St, Sudbury ON</td>
+                    <td>705.858.9999</td>
+                    <td>sjrobin@hotmail.com</td>
+                </tr>
+                <tfoot>
+                    <form id="Target" role="form">
+                        <tr>
+                            <td><input type="text" class="form-control" id="Name" placeholder="Name"></td>
+                            <td><input type="text" class="form-control" id="Address" placeholder="Address"></td>
+                            <td><input type="tel" class="form-control" id="Phone" placeholder="Phone Number"></td>
+                            <td><input type="email" class="form-control" id="Email" placeholder="Email"></td>
+                        </tr>
+                    </form>
+                </tfoot>
+            </tbody>
+        </table>
+        <hr>
+        <input type="submit" form="Target" value="Save" class="btn btn-info"></input>
+        <input type="submit" value="Cancel" class="btn btn-danger"></input>
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.json.min.js"></script>
+    <script src="js/sortabe.js"></script>
+    <script src="js/default.js"></script>
+  </body>
+</html>
